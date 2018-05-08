@@ -1,6 +1,6 @@
 <?php
-use yii\bootstrap\NavBar;
-use yii\bootstrap\Nav;
+use yii\bootstrap4\NavBar;
+use yii\bootstrap4\Nav;
 use yii\helpers\Html;
 
 /* @var $this \yii\web\View */
@@ -44,7 +44,7 @@ $asset = yii\gii\GiiAsset::register($this);
         <div class="footer-fix"></div>
     </div>
     <footer class="footer">
-        <div class="container">
+        <div class="d-flex" style="justify-content: space-between; padding: 0 20px;">
             <p class="pull-left">A Product of <a href="http://www.yiisoft.com/">Yii Software LLC</a></p>
             <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
